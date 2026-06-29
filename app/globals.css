@@ -114,7 +114,7 @@
   }
 
   .home-header {
-    @apply flex flex-col justify-between gap-8;
+    @apply flex flex-col justify-between gap-5 lg:gap-8;
   }
 
   .total-balance {
@@ -155,7 +155,7 @@
 
   /* Right sidebar */
   .right-sidebar {
-    @apply no-scrollbar hidden h-screen max-h-screen flex-col border-l border-gray-200 xl:flex w-[355px] xl:overflow-y-scroll !important;
+    @apply no-scrollbar hidden h-screen max-h-screen flex-col border-l border-gray-200 xl:flex w-[280px] 2xl:w-[355px] xl:overflow-y-scroll !important;
   }
 
   .profile-banner {
@@ -163,7 +163,7 @@
   }
 
   .profile {
-    @apply relative flex px-6 max-xl:justify-center;
+    @apply relative flex px-4 2xl:px-6 max-xl:justify-center;
   }
 
   .profile-img {
@@ -183,17 +183,17 @@
   }
 
   .banks {
-    @apply flex flex-col justify-between gap-8 px-6 py-8;
+    @apply flex flex-col justify-between gap-6 px-4 py-6 2xl:gap-8 2xl:px-6 2xl:py-8;
   }
 
   /* My Banks */
   .my-banks {
-    @apply flex h-screen max-h-screen w-full flex-col gap-8 bg-gray-25 p-8 xl:py-12;
+    @apply flex h-screen max-h-screen w-full flex-col gap-6 bg-gray-25 p-6 lg:gap-8 lg:p-8 xl:py-12;
   }
 
   /* My Banks */
   .transactions {
-    @apply flex max-h-screen w-full flex-col gap-8 overflow-y-scroll bg-gray-25 p-8 xl:py-12;
+    @apply flex max-h-screen w-full flex-col gap-6 overflow-y-scroll bg-gray-25 p-6 lg:gap-8 lg:p-8 xl:py-12;
   }
 
   .transactions-header {
@@ -262,7 +262,7 @@
   }
 
   .plaidlink-ghost {
-    @apply flex cursor-pointer items-center justify-center gap-3 rounded-lg px-3 py-7 hover:bg-white lg:justify-start;
+    @apply flex cursor-pointer items-center justify-center gap-3 rounded-lg px-3 py-5 2xl:py-7 hover:bg-white lg:justify-start;
   }
 
   .plaidlink-default {

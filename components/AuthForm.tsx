@@ -96,7 +96,7 @@ const AuthForm = ({ type }: { type: string }) => {
           </Link>
 
           <div className="flex flex-col gap-1 md:gap-3">
-            <h1 className="text-24 lg:text-26 2xl:text-30 font-semibold text-gray-900">
+            <h1 className="text-24 lg:text-36 font-semibold text-gray-900">
               {user 
                 ? 'Link Account'
                 : type === 'sign-in'
